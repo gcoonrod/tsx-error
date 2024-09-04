@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+      /* Visit https://aka.ms/tsconfig.json to read more about this file */
+      "outDir": "./dist",
+      "rootDir": "./src",
+      "target": "es2016" /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */,
+      "module": "commonjs" /* Specify what module code is generated. */,
+      "resolveJsonModule": true /* Enable importing .json files */,
+      "allowJs": true /* Allow JavaScript files to be a part of your program.*/,
+      "checkJs": true /* Enable error reporting in type-checked JavaScript files. */,
+      "esModuleInterop": true /* Emit additional JavaScript to ease support for importing CommonJS modules.*/,
+      "forceConsistentCasingInFileNames": true /* Ensure that casing is correct in imports. */,
+      "strict": true /* Enable all strict type-checking options. */,
+      "noImplicitAny": false /* Enable error reporting for expressions and declarations with an implied `any` type.. */,
+      "skipLibCheck": true /* Skip type checking all .d.ts files. */,
+      "declaration": true,
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true
+    },
+    "include": ["."],
+    "exclude": ["node_modules", "dist"]
+  }
